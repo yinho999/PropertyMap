@@ -1,0 +1,37 @@
+body{
+  width: 100%;
+}
+
+
+.navagation{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  position: fixed;
+}
+
+.left{
+  width: 10%;
+  height: 100vh;
+  background-color: blue;
+
+}
+header{
+  width: 90%;
+  height: 5rem;
+}
+nav{
+  height: 100%;
+  font-size: 1.1rem;
+  background-color: #3f72af;
+}
+
+
+.content{
+  position: absolute;
+  top:5rem;
+  right: 0;
+  height: 50vh;
+  width: 90%;
+  background-color: red;
+}
