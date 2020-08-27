@@ -40,7 +40,7 @@ main{
 .sidebar{
   background-color: skyblue;
   width: 10%;
-  height: 10vh;
+  height: 95vh;
   display: inline-block;
   box-sizing: border-box;
 }

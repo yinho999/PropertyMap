@@ -5,8 +5,9 @@ $(document).ready(()=>{
   var content=true;
   //For sidebar
   //when the button in navbar clicked
-  $(".fa-bars").click(()=>{
+  $(".fa-bars").click((e)=>{
     //the width of the sidebar will be toggled
+    e.preventDefault();
     $(".sidebar").animate({
     visibility:"toggle",
       width:"toggle"

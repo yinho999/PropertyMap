@@ -1,0 +1,47 @@
+header{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Left Sidebar */
+
+.left{
+  width:10%;
+  height: 100vh;
+  background-color: #497FFC;
+}
+
+.brand{
+  margin-top: 5%;
+}
+.sidebar{
+  width: 70%;
+  margin: 4rem auto;
+  /* margin-top: 4rem; */
+  text-align: left;
+  /* background-color: green; */
+}
+
+
+
+.top{
+  display: flex;
+  height:4rem;
+  width: 90%;
+  background-color: #CDFC7C;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top form{
+  margin-left: 5%;
+}
+
+.top-nav-link{
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+}
+.top-nav-link span{
+  font-size: 1.1rem;
+}
