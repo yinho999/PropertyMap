@@ -7,49 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!-- Our script -->
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/app.js" charset="utf-8" defer></script>
   <title>Template</title>
 </head>
 
 <body>
   <section class="navagation">
+    <header class="inline-block">
+      <!-- <i class="fas fa-grip-lines"></i> -->
+      <!-- navbar expand is to make it horizontal -->
+      <nav class="navbar navbar-expand-lg navbar-dark justify-content-around d-flex text-center">
 
 
-  <div class="left inline-block">
-    <h1>Side bar</h1>
-  </div>
-  <header class="inline-block">
-    <!-- <i class="fas fa-grip-lines"></i> -->
-    <!-- navbar expand is to make it horizontal -->
-    <nav class="navbar navbar-expand-lg navbar-dark justify-content-around d-flex text-center">
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target=".navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="d-flex justify-content-around col-md-2">
-        <a href="#" class="navbar-brand">Template</a>
-      </div>
-      <div class="collapse navbar-collapse col-md-4 justify-content-center navbarSupportedContent20">
-        <form class="form-inline my-2 my-lg-0 justify-content-center">
-          <input class="form-control mr-sm-2 py-md-1" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-        <ul class="navbar-nav justify-content-around ">
+        <div class="d-flex justify-content-around col-md-3">
+          <a href="#"><i class="fas fa-bars my-2 text-white"></i></a>
+          <a href="#" class="navbar-brand">Template</a>
+        </div>
+        <!-- navbarSupportedContent -->
+        <div class="collapse navbar-collapse col-lg-6 justify-content-center navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0 col-md-9">
+            <input class="form-control mr-sm-2 py-md-1 col-md-9" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 col-md-2" type="submit">Search</button>
+          </form>
+        </div>
+        <ul class="navbar-nav justify-content-around col-md-3">
           <li class="nav-item "><a href="" class="nav-link "><i class="fas fa-user"></i> Profile</a></li>
           <li class="nav-item "><a href="" class="nav-link "><i class="fas fa-comment-dots"></i> Chat</a></li>
           <li class="nav-item "><a href="" class="nav-link p-md-0 ml-md-4 "><button type="button" name="Login" class="btn btn-md btn-outline-light py-md-1 my-1">Login</button></a></li>
           <li class="nav-item "><a href="" class="nav-link p-md-0 ml-md-3"><button type="button" name="SignUp" class="btn btn-md btn-dark py-md-1 my-1">Sign Up</button></a></li>
           <!-- <li class="nav-item"><a href="" class="nav-link mr-auto"><i class="fas fa-calculator"></i> Calculator</a></li> -->
         </ul>
-    </nav>
-  </header>
+      </nav>
+    </header>
   </section>
-  <div class="content">
-  <h1>Hello</h1>
-  </div>
+  <main>
+    <div class="sidebar">
+
+    </div>
+    <div class="content">
+      <h1>Hello</h1>
+    </div>
+  </main>
 
 
   <!-- Optional JavaScript -->

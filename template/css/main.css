@@ -1,23 +1,18 @@
 body{
   width: 100%;
+  box-sizing: border-box;
 }
 
 
 .navagation{
   display: flex;
   width: 100%;
-  flex-flow: row wrap;
-  position: fixed;
+  /* position: fixed; */
 }
 
-.left{
-  width: 10%;
-  height: 100vh;
-  background-color: blue;
 
-}
 header{
-  width: 90%;
+  width: 100%;
   height: 5rem;
 }
 nav{
@@ -25,13 +20,43 @@ nav{
   font-size: 1.1rem;
   background-color: #3f72af;
 }
+.fa-bars{
+  font-size: 1.5rem;
+}
+nav input{
+  width: 80%;
+}
+
+
+
+/* Main */
+main{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/* Sidebar */
+.sidebar{
+  background-color: skyblue;
+  width: 10%;
+  height: 10vh;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.toggled{
+
+}
+
 
 
 .content{
-  position: absolute;
-  top:5rem;
-  right: 0;
-  height: 50vh;
-  width: 90%;
+  height: 80vh;
   background-color: red;
+  width: 100%;
+}
+.sidebar-toggled{
+  display: inline-block;
+  width: 90%;
+
 }
