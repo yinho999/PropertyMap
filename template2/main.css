@@ -4,6 +4,7 @@
 body{
 }
 header{
+  border-bottom: 1px solid black;
   /* width: 80%; */
     /* background-color: #364f6b; */
 }
@@ -23,13 +24,14 @@ nav{
 /* SideBar */
 .left{
   position: absolute;
+  height: 84vh;
   width:10%;
-  height: 90vh;
   /* background-color: #364f6b; */
   display: flex;
   justify-content: center;
   /* align-items: center; */
   border-right: 1px solid grey;
+  /* background-color:#7baa74; */
 }
 
 .sidebar{
@@ -40,7 +42,7 @@ nav{
   margin: 2rem auto;
   /* margin-top: 4rem; */
   text-align: left;
-  /* background-color: green; */
+  color:ghostwhite;
 }
 .sidebar p{
   border-bottom: 1px solid grey;
@@ -50,9 +52,8 @@ nav{
 /* top navbar */
 
 .top{
-  /* border-left: 1px solid black; */
   display: flex;
-  height:10vh;
+  height:15vh;
   width: 90%;
   /* background-color: #364f6b; */
   justify-content: space-between;
